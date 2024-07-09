@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("/sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF")
+        format("woff2");
+}
+@layer utilities {
+    .sign-up-shadow {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+    .changed-shadow{
+        box-shadow: 0 2px 4px rgba(141, 142, 143, 0.425), 0 8px 16px rgb(141, 142, 143);
+    }
+}

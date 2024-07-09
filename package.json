@@ -1,0 +1,18 @@
+{
+  "name": "projects-with-tailwind-css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "tailwindcss -i ./CSS/tailwind.css -o ./CSS/style.min.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.3.3"
+  }
+}
